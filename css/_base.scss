@@ -1,0 +1,46 @@
+//font-family: 'Kaisei HarunoUmi', serif;日本語ポイント
+//font-family: 'Klee One', cursive;日本語ノーマル
+//font-family: 'Tajawal', sans-serif;英語
+
+// 変数
+$white: #fff;
+$black: #333;
+$gray1: #999;
+$gray2: rgba(204, 204, 204, 0.575);
+$light-gray: #f7f7f1;
+
+$yellow: #ecc827b9;
+$purpul:#3e2058;
+$navy: #2E3164;
+$navy2: #2e316463;
+
+
+// ベーススタイル
+html {
+    font-size: 62.5%;
+}
+
+body {
+  font-family: 'Klee One', cursive;
+  font-family: 'Kaisei HarunoUmi', serif;
+  font-family: 'Tajawal', sans-serif;
+  
+
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.75;
+    color: $black;
+    background-color: $light-gray;
+    @media (min-width: 769px) {
+        font-size: 1.6rem;
+    }
+}
+
+
+img {
+    max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}

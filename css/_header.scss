@@ -1,0 +1,36 @@
+
+.header {
+ 
+  top: 0;
+  width: 100%;
+  background-color: $white;
+  text-align: center;
+  margin: 0px;
+  position: fixed;
+ 
+  ul {
+    margin: 0;
+   list-style: none;
+    display: flex;
+
+} 
+  }
+.contact {
+  font-family: 'Tajawal', sans-serif;
+  font-size: 3rem;
+  display:flex;
+  justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    @media screen and (max-width: 600px) {
+      font-size: 2.5rem;
+    }
+  
+  li {
+    
+    a {
+      color: $black;
+    }
+    
+  }
+}

@@ -1,0 +1,68 @@
+.footer {
+  background-color: $navy;
+  margin-bottom: 0;
+  padding: 0;
+  color: $white;
+  height: 30%;
+
+  .company {
+    margin: 10rem;
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 2rem;
+    text-align: center;
+
+
+  }
+  .sns {
+    margin: 10rem;
+    font-size: 3.5rem;
+    padding: 3rem;
+  }
+
+.copy {
+  p {
+  margin-bottom: 0;
+  text-align: center;
+  }
+}
+
+.f-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+.footer {
+  background-color: $navy;
+  margin-bottom: 0;
+  padding: 0;
+  color: $white;
+  height: 30%;
+
+
+.company {
+  width: 100%;
+  font-size: 2rem;
+  margin: 2rem;
+  text-decoration: none;
+  color: $white;
+}
+
+.sns {
+  margin: 0;
+  width: 100%;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.f-flex {
+  width: 100%;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+}
+
+}

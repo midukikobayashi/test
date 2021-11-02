@@ -1,0 +1,71 @@
+
+
+.top {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+
+}
+
+.top::before {
+   content: '';
+   display: block;
+   width: 100%;
+   height: 100%;
+   background-image: url(../imgs/yousetu.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   -webkit-animation: zoom 10s 1;
+   animation: zoom 10s 1;
+   animation-fill-mode: forwards;
+}
+
+@keyframes zoom {
+   0% {
+      transform: scale(1);
+   }
+   100% {
+      transform: scale(1.5);
+   }
+}
+
+h1{
+  /*中身を上下中央揃え*/
+  font-family: 'Kaisei HarunoUmi', serif;
+  position: absolute;
+  letter-spacing: 20px;
+  font-size: 6rem;
+  color: $white;
+  
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  height: 50vh;
+  text-align: center;
+ 
+
+  @media screen and (max-width: 600px) {
+    font-size: 5rem;
+    letter-spacing: 15px;
+    writing-mode: vertical-rl;
+    -webkit-writing-mode: vertical-rl;
+    text-align: center;
+    height: 100vh;
+
+  
+    //background-color: $yellow;
+    //padding: 0 2rem auto 2rem;
+    //margin: 10rem 50rem 50% 3rem;
+    display: flex;
+    align-items: center;
+    
+    
+}
+}
+
+
+
